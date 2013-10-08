@@ -1,0 +1,17 @@
+<html ng-app="App">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <script src="../src/angular-placeholder.js"></script>
+        <script type="text/javascript">
+            angular.module('App', ['ngPlaceholder']);
+        </script>
+    </head>
+    <body>
+        <h1>Angular Placeholder</h1>
+        <form action="index.html" method="GET">
+            <input id="input-one" name="input-one" type="text" ng-placeholder="Enter your content!" />
+            <input id="input-two" name="input-two" type="text" ng-placeholder placeholder="This is my placeholder!" />
+            <input type="submit" value="Go" />
+        </form>
+    </body>
+</html>

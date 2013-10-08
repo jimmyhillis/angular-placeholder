@@ -1,0 +1,15 @@
+{
+  "name": "angular-placeholder",
+  "version": "0.1.0",
+  "author": "jimmyhillis <jimmy@hillis.me>",
+  "homepage": "http://github.com/jimmyhillis/angular-placeholder",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "0.4.0",
+    "grunt-regarde": "~0.1.1",
+    "grunt-notify": "~0.2.3"
+  }
+}
