@@ -1,7 +1,7 @@
-/**!
+/**
  * @ngdoc directive
  * @name ngPlaceholder.directive:ngPlaceholder
- * @restrict E
+ * @restrict A
  *
  * @description
  * HTML5 placeholder polyfill to ensure all browsers will support helpful

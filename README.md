@@ -2,9 +2,8 @@
 
 HTML5 placeholder polyfill for AngularJS.
 
-This angular directive can be used to use HTML5 placeholder functionality
-within in all browsers, including older version of IE. A simple working
-example can be seen by opening `example/index.html` in your web browser.
+This angular directive allows for the use of HTML5 placeholder functionality
+across all browsers, including legacy versions of Internet Explorer.
 
 ## Usage
 
