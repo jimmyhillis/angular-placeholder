@@ -1,0 +1,19 @@
+{
+  "name": "angular-placeholder",
+  "version": "0.1.0",
+  "description": "HTML5 placeholder polyfill in vanilla angular.",
+  "homepage": "https://github.com/jimmyhillis/angular-placeholder",
+  "authors": [
+    "Jimmy Hillis <jimmy@hillis.me>"
+  ],
+  "main": "./dist/angular-placeholder.min.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

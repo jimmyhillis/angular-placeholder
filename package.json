@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "author": "jimmyhillis <jimmy@hillis.me>",
   "homepage": "http://github.com/jimmyhillis/angular-placeholder",
+  "description": "HTML5 placeholder polyfill in vanilla angular.",
+  "main": "./dist/angular-placeholder.min.js",
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-concat": "~0.1.2",
