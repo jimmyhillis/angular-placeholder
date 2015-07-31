@@ -19,7 +19,7 @@ var PLACEHOLDER_SUPPORT = (function () {
 }());
 
 angular.module('ngPlaceholder', [])
-    .directive('placeholder', [function () {
+    .directive('placeholder', ['$timeout', function ($timeout) {
         return {
             restrict: 'A',
             link: function (scope, element, attr) {
@@ -31,10 +31,13 @@ angular.module('ngPlaceholder', [])
                 }
                 // Without HTML5 placeholder support set the value of the
                 // input by default and blur, and unset on focus.
-                if (element.val() === '') {
-                    element.val(_placeholder);
-                    element.addClass('placeholder');
-                }
+                // Wait for ngModel to get set to the value if required
+                $timeout(function () {
+                    if (!element.val()) {
+                        element.val(_placeholder);
+                        element.addClass('placeholder');
+                    }
+                }, 250);
                 element.bind('focus', function (e) {
                     if (element.val() === _placeholder) {
                         element.val('');
